@@ -12,6 +12,8 @@ public event Windows.UI.Xaml.Controls.CalendarViewDayItemChangingEventHandler Ca
 ## -description
 Occurs when a [CalendarViewDayItem](calendarviewdayitem.md) is loading in the picker's [CalendarView](calendarview.md).
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.CalendarViewDayItemChanging](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.calendarviewdayitemchanging).
+
 ## -xaml-syntax
 ```xaml
 <CalendarDatePicker CalendarViewDayItemChanging="eventhandler"/>
@@ -19,7 +21,7 @@ Occurs when a [CalendarViewDayItem](calendarviewdayitem.md) is loading in the pi
 
 
 ## -remarks
-This method is comes from the [CalendarDatePicker](calendardatepicker.md) 's internal [CalendarView](calendarview.md). For more info, see [CalendarView.CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md).
+This method is comes from the [CalendarDatePicker](calendardatepicker.md)'s internal [CalendarView](calendarview.md). For more info, see [CalendarView.CalendarViewDayItemChanging](calendarview_calendarviewdayitemchanging.md).
 
 ## -examples
 

@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Media.MediaElementState CurrentState { get; }
 ## -description
 Gets the status of this [MediaElement](mediaelement.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.MediaElement.CurrentState](/windows/winui/api/microsoft.ui.xaml.controls.mediaelement.currentstate).
+
 ## -property-value
 The current state of this [MediaElement](mediaelement.md). The state can be one of the following (as defined in the [MediaElementState](../windows.ui.xaml.media/mediaelementstate.md) enumeration): **Buffering**, **Closed**, **Opening**, **Paused**, **Playing**, or **Stopped**. The default value is **Closed**.
 
@@ -22,7 +24,7 @@ The following example demonstrates one way to display the CurrentState of a [Med
 
 
 
-[!code-xml[media_ovw_controlling_media_with_currentstate](../windows.ui.xaml.controls/code/media_ovw_controlling_media_with_currentstate/csharp/Page.xaml#Snippetmedia_ovw_controlling_media_with_currentstate)]
+[!code-xaml[media_ovw_controlling_media_with_currentstate](../windows.ui.xaml.controls/code/media_ovw_controlling_media_with_currentstate/csharp/Page.xaml#Snippetmedia_ovw_controlling_media_with_currentstate)]
 
 
 [!code-csharp[media_ovw_controlling_media_with_currentstate_code](../windows.ui.xaml.controls/code/media_ovw_controlling_media_with_currentstate/csharp/Page.xaml.cs#Snippetmedia_ovw_controlling_media_with_currentstate_code)]

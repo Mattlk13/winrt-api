@@ -13,6 +13,8 @@ public class ContainerVisual : Windows.UI.Composition.Visual, Windows.UI.Composi
 
 A node in the visual tree that can have children.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.ContainerVisual](/windows/winui/api/microsoft.ui.composition.containervisual).
+
 ## -remarks
 
 ## -examples
@@ -68,7 +70,7 @@ private:
 };
 ```
 
-```cpp
+```cppcx
 ref class MyClass
 {
     Compositor ^ _compositor;
@@ -102,4 +104,4 @@ ref class MyClass
 
 ## -see-also
 
-[Visual](visual.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://go.microsoft.com/fwlink/p/?LinkId=620483)
+[Visual](visual.md), [IClosable](../windows.foundation/iclosable.md), [Composition visual without framework sample (Windows 10)](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/CompositionVisual)

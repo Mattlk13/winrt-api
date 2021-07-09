@@ -12,6 +12,8 @@ public Windows.UI.Xaml.DependencyObject LoadContent()
 ## -description
 Creates the [UIElement](uielement.md) objects in the [DataTemplate](datatemplate.md).
 
+Equivalent WinUI method: [Microsoft.UI.Xaml.DataTemplate.LoadContent](/windows/winui/api/microsoft.ui.xaml.datatemplate.loadcontent).
+
 ## -returns
 The root [UIElement](uielement.md) of the [DataTemplate](datatemplate.md).
 
@@ -24,7 +26,7 @@ The following examples demonstrate using the LoadContent method to change the ap
 
 
 
-[!code-xml[Snippet1_XAML](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml#Snippet1_XAML)]
+[!code-xaml[Snippet1_XAML](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml#Snippet1_XAML)]
 
 
 [!code-csharp[Snippet2_CS](../windows.ui.xaml.controls.primitives/code/DataTemplateSelectionSnippets/csharp/Page.xaml.cs#Snippet2_CS)]

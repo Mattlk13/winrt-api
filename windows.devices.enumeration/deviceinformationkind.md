@@ -33,7 +33,7 @@ The [Id](deviceinformation_id.md) for this object is the device interface id, or
 
 The [DeviceInformation](deviceinformation.md) object represents a device container. *DeviceContainer* objects describe a collection of device objects that exist in the same physical device. For example, a multi-function printer may have several different devices included, but they would all exist as part of the parent *DeviceContainer* object.
 
-The [Id](deviceinformation_id.md) for this object is the device container GUID as a string.
+The [Id](deviceinformation_id.md) for this object is the device container [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) as a string.
 
 ### -field Device:3
 
@@ -45,11 +45,11 @@ The [Id](deviceinformation_id.md) for this object is the device instance id for 
 
 The [DeviceInformation](deviceinformation.md) object represents a device interface class. Every *DeviceInterface* object belongs to a certain *DeviceInterfaceClass*. This is similar to a contract definition. These contracts are represented with an id and properties, just like every other PnP object. *DeviceInterfaceClass* objects contain little more information than a unique identifier and possibly a name.
 
-The [Id](deviceinformation_id.md) for this object is the device interface class GUID as a string.
+The [Id](deviceinformation_id.md) for this object is the device interface class [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) as a string.
 
 ### -field AssociationEndpoint:5
 
-The [DeviceInformation](deviceinformation.md) object represents a device association endpoint (AEP). AEPs usually represent a device discovered over a wireless or network protocol. Some of these endpoints can be used without needing to first pair the device. Use [CanPair](deviceinformationpairing_canpair.md) to determine if a device supports pairing and [IsPaired](deviceinformationpairing_ispaired.md) to determine if a device is already paired with the system. Only *AssociationEndpoint* objects have a non-NULL value for [Pairing](deviceinformation_pairing.md). For more information about pairing over a network, see [Enumerate devices over a network](https://docs.microsoft.com/windows/uwp/devices-sensors/enumerate-devices-over-a-network). An *AssociationEndpoint* object is a child of a single *AssociationEndpointContainer* object and can contain 0 or more *AssociationEndpointService* objects.
+The [DeviceInformation](deviceinformation.md) object represents a device association endpoint (AEP). AEPs usually represent a device discovered over a wireless or network protocol. Some of these endpoints can be used without needing to first pair the device. Use [CanPair](deviceinformationpairing_canpair.md) to determine if a device supports pairing and [IsPaired](deviceinformationpairing_ispaired.md) to determine if a device is already paired with the system. Only *AssociationEndpoint* objects have a non-NULL value for [Pairing](deviceinformation_pairing.md). For more information about pairing over a network, see [Enumerate devices over a network](/windows/uwp/devices-sensors/enumerate-devices-over-a-network). An *AssociationEndpoint* object is a child of a single *AssociationEndpointContainer* object and can contain 0 or more *AssociationEndpointService* objects.
 
 The [Id](deviceinformation_id.md) for this object.
 
@@ -57,7 +57,7 @@ The [Id](deviceinformation_id.md) for this object.
 
 The [DeviceInformation](deviceinformation.md) object represents an association endpoint (AEP) container. An *AssociationEndpointContainer* object represents a single physical device that might have more than one *AssociationEndpoint* objects associated with it. For example, if a television supports two different network protocols, the *AssociationEndpointContainer* would be the television. It would also have two *AssociationEndpoint* objects to represent each protocol.
 
-The [Id](deviceinformation_id.md) for this object is the AEP container GUID as a string.
+The [Id](deviceinformation_id.md) for this object is the AEP container [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) as a string.
 
 ### -field AssociationEndpointService:7
 
@@ -73,7 +73,7 @@ The [Id](deviceinformation_id.md) for this object as a string.
 
 ## -remarks
 
-A DeviceInformationKind value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over specific kinds of devices using DeviceInformationKind, see [Enumerate devices](https://docs.microsoft.com/windows/uwp/devices-sensors/enumerate-devices).
+A DeviceInformationKind value can be passed to the various enumeration APIs to indicate the specific kind of device you want to enumerate. In most scenarios, you will receive the [DeviceInformation](deviceinformation.md) from the device selector. To see how to enumerate over specific kinds of devices using DeviceInformationKind, see [Enumerate devices](/windows/uwp/devices-sensors/enumerate-devices).
 
 The following diagram show how the different device types interact with each other. It also indicates the properties that tie the relationships together. For performance reasons, many of the relationship connections only go in one direction. The exception to this is **AepContainer**. It contains a list of its child objects thanks to **AepContainer.Children**.
 

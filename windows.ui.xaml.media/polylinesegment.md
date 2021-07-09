@@ -12,6 +12,8 @@ public class PolyLineSegment : Windows.UI.Xaml.Media.PathSegment, Windows.UI.Xam
 ## -description
 Represents a set of line segments defined by a [Point](../windows.foundation/point.md) collection with each [Point](../windows.foundation/point.md) specifying the end point of a line segment.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.PolyLineSegment](/windows/winui/api/microsoft.ui.xaml.media.polylinesegment).
+
 ## -xaml-syntax
 ```xaml
 <PolyLineSegment .../>
@@ -25,10 +27,10 @@ This example creates a [PathGeometry](pathgeometry.md) with two [PathFigure](pat
 
 
 
-[!code-xml[GeometryOvw7](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw7.xaml#SnippetGeometryOvw7)]
+[!code-xaml[GeometryOvw7](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw7.xaml#SnippetGeometryOvw7)]
 
 <img src="Images/PolyLineSegment_curves.gif" alt="Various line shapes created by the example" />
 
 ## -see-also
-[PathSegment](pathsegment.md), [PathFigure](pathfigure.md), [PathGeometry](pathgeometry.md), [Path](../windows.ui.xaml.shapes/path.md), [XAML vector-based drawing sample](https://go.microsoft.com/fwlink/p/?linkid=226866), [Draw shapes](https://docs.microsoft.com/windows/uwp/graphics/drawing-shapes)
+[PathSegment](pathsegment.md), [PathFigure](pathfigure.md), [PathGeometry](pathgeometry.md), [Path](../windows.ui.xaml.shapes/path.md), [XAML vector-based drawing sample](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/XAML%20vector-based%20drawing%20sample), [Draw shapes](/windows/uwp/graphics/drawing-shapes)
 s.drawing_shapes)

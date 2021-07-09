@@ -12,6 +12,8 @@ public class ConnectedAnimationService : Windows.UI.Xaml.Media.Animation.IConnec
 ## -description
 Represents a service that provides properties and methods to display a [ConnectedAnimation](connectedanimation.md).
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.ConnectedAnimationService](/windows/winui/api/microsoft.ui.xaml.media.animation.connectedanimationservice).
+
 ## -remarks
 To get an instance of ConnectedAnimationService, call the static [GetForCurrentView](connectedanimationservice_getforcurrentview_1363600702.md) method.
 
@@ -20,6 +22,14 @@ When you call [PrepareToAnimate](connectedanimationservice_preparetoanimate_9105
 See the [Connected animation sample](https://github.com/microsoft/WindowsCompositionSamples/tree/master/SampleGallery/Samples/SDK 14393/ConnectedAnimationSample) for a complete example of ConnectedAnimationService.
 
 ## -examples
+
+> [!TIP]
+> For more info, design guidance, and code examples, see [Connected animation](/windows/uwp/design/motion/connected-animation).
+>
+> If you have the **XAML Controls Gallery** app installed, click here to [open the app and see Connected Animation in action](xamlcontrolsgallery:/item/ConnectedAnimation).
+> + [Get the XAML Controls Gallery app (Microsoft Store)](https://www.microsoft.com/store/productId/9MSVH128X2ZT)
+> + [Get the source code (GitHub)](https://github.com/Microsoft/Xaml-Controls-Gallery)
+
 This example shows how to animate an image between two pages during a navigation.
 
 SourcePage.xaml/SourcePage.xaml.cs
@@ -67,4 +77,4 @@ protected override void OnNavigatedTo(NavigationEventArgs e)
 
 
 ## -see-also
-[Connected animation overview](https://docs.microsoft.com/windows/uwp/design/motion/connected-animation)
+[Connected animation overview](/windows/uwp/design/motion/connected-animation)

@@ -12,6 +12,8 @@ public class EntranceThemeTransition : Windows.UI.Xaml.Media.Animation.Transitio
 ## -description
 Provides the animated transition behavior on controls when they first appear. You can use this on individual objects or on containers of objects. In the latter case, child elements will animate into view in sequence rather than all at the same time.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.EntranceThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.entrancethemetransition).
+
 ## -xaml-syntax
 ```xaml
 <EntranceThemeTransition .../>
@@ -23,11 +25,11 @@ Provides the animated transition behavior on controls when they first appear. Yo
 ## -examples
 This example shows a how to apply an EntranceThemeTransition to a [Button](../windows.ui.xaml.controls/button.md).
 
-[!code-xml[EntranceThemeTransitionSimple](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionSimple)]
+[!code-xaml[EntranceThemeTransitionSimple](../windows.ui.xaml.media.animation/code/EntranceThemeTransition/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionSimple)]
 
 Here, the EntranceThemeTransition is applied using a Style resource.
 
-[!code-xml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
+[!code-xaml[EntranceThemeTransitionStyle](../windows.ui.xaml/code/EntranceThemeTransitionStyle/csharp/BlankPage.xaml#SnippetEntranceThemeTransitionStyle)]
 
 If you set an EntranceThemeTransition animation on a panel, the children of the panel will automatically offset when they animate into view to create a visually appealing entrance.
 
@@ -73,4 +75,4 @@ private void Button_Click(object sender, RoutedEventArgs e)
 
 
 ## -see-also
-[Transition](transition.md), [Animating page transitions](https://docs.microsoft.com/previous-versions/windows/apps/jj649426(v=win.10)), [Guidelines and checklist for page transition animations](https://msdn.microsoft.com/library/windows/apps/jj635239.aspx)
+[Transition](transition.md), [Animating page transitions](/previous-versions/windows/apps/jj649426(v=win.10)), [Guidelines and checklist for page transition animations](https://msdn.microsoft.com/library/windows/apps/jj635239.aspx)

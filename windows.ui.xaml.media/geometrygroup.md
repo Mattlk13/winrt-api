@@ -12,6 +12,8 @@ public class GeometryGroup : Windows.UI.Xaml.Media.Geometry, Windows.UI.Xaml.Med
 ## -description
 Represents a composite geometry, composed of other [Geometry](geometry.md) objects.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.GeometryGroup](/windows/winui/api/microsoft.ui.xaml.media.geometrygroup).
+
 ## -xaml-syntax
 ```xaml
 <GeometryGroup>
@@ -27,7 +29,7 @@ Composite geometry objects can be created using a GeometryGroup. The GeometryGro
 
 
 
-[!code-xml[GeometryOvw8](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw8.xaml#SnippetGeometryOvw8)]
+[!code-xaml[GeometryOvw8](../windows.ui.xaml/code/geometries_snip/csharp/GeometryOvw8.xaml#SnippetGeometryOvw8)]
 
 ## -see-also
 [Geometry](geometry.md)

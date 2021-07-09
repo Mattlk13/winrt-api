@@ -12,6 +12,8 @@ public string YearFormat { get;  set; }
 ## -description
 Gets or sets the display format for the year value.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.DatePicker.YearFormat](/windows/winui/api/microsoft.ui.xaml.controls.datepicker.yearformat).
+
 ## -xaml-syntax
 ```xaml
 <DatePicker YearFormat="formatString"/>
@@ -44,7 +46,7 @@ For the complete list of format templates and format patterns, see the Remarks s
 > Some date formats should be avoided if the date picker might be displayed in a small area, such as adding the full string value of the day of week. These strings can be long and might be clipped if the DatePicker's width is forced to be small.
 
 ## -examples
-Here's a [DatePicker](datepicker.md) formatted using format templates, and a [DatePicker](datepicker.md) formatted using format strings. Both [DatePicker](datepicker.md) s look the same when the app is run because the formatting is equivalent.
+Here's a [DatePicker](datepicker.md) formatted using format templates, and a [DatePicker](datepicker.md) formatted using format strings. Both [DatePicker](datepicker.md)s look the same when the app is run because the formatting is equivalent.
 
 
 <!--Add screenshots for examples-->
@@ -59,4 +61,4 @@ Here's a [DatePicker](datepicker.md) formatted using format templates, and a [Da
 
 
 ## -see-also
-[DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md), [Quickstart: Adding a DatePicker](https://docs.microsoft.com/previous-versions/windows/apps/dn308514(v=win.10)), [How to use patterns to format dates and times](https://docs.microsoft.com/previous-versions/windows/apps/jj673581(v=win.10))
+[DateTimeFormatter](../windows.globalization.datetimeformatting/datetimeformatter.md), [Quickstart: Adding a DatePicker](/previous-versions/windows/apps/dn308514(v=win.10)), [How to use patterns to format dates and times](/previous-versions/windows/apps/jj673581(v=win.10))

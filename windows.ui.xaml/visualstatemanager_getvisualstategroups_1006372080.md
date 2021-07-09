@@ -10,16 +10,23 @@ public Windows.Foundation.Collections.IVector<Windows.UI.Xaml.VisualStateGroup> 
 # Windows.UI.Xaml.VisualStateManager.GetVisualStateGroups
 
 ## -description
-Gets the value of the [VisualStateManager.VisualStateGroups](visualstatemanager_visualstategroups.md) attached property.
+
+Retrieves the collection of [VisualStateGroup](visualstategroup.md) objects associated with the specified [FrameworkElement](frameworkelement.md).
+
+Equivalent WinUI method: [Microsoft.UI.Xaml.VisualStateManager.GetVisualStateGroups](/windows/winui/api/microsoft.ui.xaml.visualstatemanager.getvisualstategroups).
 
 ## -parameters
+
 ### -param obj
+
 The object to get the value from.
 
 ## -returns
-The collection of [VisualStateGroup](visualstategroup.md) objects that is associated with the specified object.
+
+A collection of [VisualStateGroup](visualstategroup.md) objects.
 
 ## -remarks
+
 This API provides attached property support for XAML usages, and doesn't need to be changed in a custom [VisualStateManager](visualstatemanager.md) scenario.
 
 ## -examples

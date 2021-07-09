@@ -12,6 +12,8 @@ public Windows.UI.Color Color { get;  set; }
 ## -description
 Gets or sets the color of the gradient stop.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Media.GradientStop.Color](/windows/winui/api/microsoft.ui.xaml.media.gradientstop.color).
+
 ## -xaml-syntax
 ```xaml
 <GradientStop Color="colorString" .../>
@@ -31,6 +33,6 @@ This example creates a [LinearGradientBrush](lineargradientbrush.md) with four g
 
 
 
-[!code-xml[Gradient1](../windows.ui.xaml.media/code/Gradients/csharp/Page.xaml#SnippetGradient1)]
+[!code-xaml[Gradient1](../windows.ui.xaml.media/code/Gradients/csharp/Page.xaml#SnippetGradient1)]
 
 ## -see-also

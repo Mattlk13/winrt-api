@@ -10,12 +10,14 @@ public Windows.Foundation.Numerics.Vector3 PositionVelocityInPixelsPerSecond { g
 # Windows.UI.Composition.Interactions.InteractionTrackerInertiaStateEnteredArgs.PositionVelocityInPixelsPerSecond
 
 ## -description
-The velocity of [InteractionTracker](interactiontracker.md) 's position.
+The velocity of [InteractionTracker](interactiontracker.md)'s position.
 
 The PositionVelocityInPixelsPerSecond property represents the position velocity of [InteractionTracker](interactiontracker.md) when it has entered the Inertia state.
 
+Equivalent WinUI property: [Microsoft.UI.Composition.Interactions.InteractionTrackerInertiaStateEnteredArgs.PositionVelocityInPixelsPerSecond](/windows/winui/api/microsoft.ui.composition.interactions.interactiontrackerinertiastateenteredargs.positionvelocityinpixelspersecond).
+
 ## -property-value
-The velocity of [InteractionTracker](interactiontracker.md) 's position.
+The velocity of [InteractionTracker](interactiontracker.md)'s position.
 
 ## -remarks
 

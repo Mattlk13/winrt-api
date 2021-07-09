@@ -12,6 +12,8 @@ public class ColumnDefinition : Windows.UI.Xaml.DependencyObject, Windows.UI.Xam
 ## -description
 Defines column-specific properties that apply to [Grid](grid.md) objects.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.ColumnDefinition](/windows/winui/api/microsoft.ui.xaml.controls.columndefinition).
+
 ## -xaml-syntax
 ```xaml
 <ColumnDefinition .../>
@@ -21,11 +23,11 @@ Defines column-specific properties that apply to [Grid](grid.md) objects.
 ## -remarks
 
 ## -examples
-The following example uses three ColumnDefinition s and three [RowDefinition](rowdefinition.md) s to create a grid that has nine cells, such as in a worksheet. Each cell contains a [TextBlock](textblock.md) element that represents data, and the top row contains a [TextBlock](textblock.md) with the [ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) property applied.
+The following example uses three ColumnDefinitionand three [RowDefinition](rowdefinition.md)s to create a grid that has nine cells, such as in a worksheet. Each cell contains a [TextBlock](textblock.md) element that represents data, and the top row contains a [TextBlock](textblock.md) with the [ColumnSpan](/uwp/api/windows.ui.xaml.controls.grid#xaml-attached-properties) property applied.
 
 
 
-[!code-xml[ColumnDefinitionClassXAML](../windows.ui.xaml.controls/code/ColumnDefinitionClassXAMLSample/csharp/Page.xaml#SnippetColumnDefinitionClassXAML)]
+[!code-xaml[ColumnDefinitionClassXAML](../windows.ui.xaml.controls/code/ColumnDefinitionClassXAMLSample/csharp/Page.xaml#SnippetColumnDefinitionClassXAML)]
 <!--<auto_snippet sample_id="ColumnDefinitionClassCodeSample" snippet_id="ColumnDefinitionClassCode"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>-->
 
 ## -see-also

@@ -18,11 +18,11 @@ Gets the context of an authentication attempt.
 
 
 
-> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](https://docs.microsoft.com/windows/uwp/packaging/app-capability-declarations). 
+> If you want to use this API and publish your app to the Store, you will need special approval. For more information, see the **Special and restricted capabilities** section under [App capability declarations](/windows/uwp/packaging/app-capability-declarations). 
 
 ## -parameters
 ### -param evenToken
-The event token retrieved from the network operator hotspot authentication [event](hotspotauthenticationeventdetails.md). The token is a GUID in string format.
+The event token retrieved from the network operator hotspot authentication [event](hotspotauthenticationeventdetails.md). The token is a [GUID](/windows/win32/api/guiddef/ns-guiddef-guid) in string format.
 
 ### -param context
 The network operator hotspot authentication context.

@@ -11,12 +11,12 @@ public struct Matrix
 
 ## -description
 Represents a 3 × 3 affine transformation matrix used for transformations in two-dimensional space.
+Equivalent WinUI struct: [Matrix](/windows/winui/api/microsoft.ui.xaml.media.matrix).
+
 ## -xaml-syntax
 ```xaml
 <Matrix .../>
-```
-
-```xaml
+- or -
 <object property="m11,m12,m21,m22,offsetX,offsetY"/>
 - or -
 <object property="m11 m12 m21 m22 offsetX offsetY"/>
@@ -98,6 +98,6 @@ This example XAML defines a Matrix that provides data for a [MatrixTransform](ma
 
 
 
-[!code-xml[matrixtransform](../windows.ui.xaml/code/transforms/csharp/Matrix_Transform.xaml#Snippetmatrixtransform)]
+[!code-xaml[matrixtransform](../windows.ui.xaml/code/transforms/csharp/Matrix_Transform.xaml#Snippetmatrixtransform)]
 
 ## -see-also

@@ -12,6 +12,8 @@ public class RowDefinition : Windows.UI.Xaml.DependencyObject, Windows.UI.Xaml.C
 ## -description
 Defines row-specific properties that apply to [Grid](grid.md) elements.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.RowDefinition](/windows/winui/api/microsoft.ui.xaml.controls.rowdefinition).
+
 ## -xaml-syntax
 ```xaml
 <RowDefinition .../>
@@ -26,7 +28,7 @@ The following example uses three [ColumnDefinitions](grid_columndefinitions.md) 
 
 
 
-[!code-xml[ColumnDefinitionClassXAML](../windows.ui.xaml.controls/code/ColumnDefinitionClassXAMLSample/csharp/Page.xaml#SnippetColumnDefinitionClassXAML)]
+[!code-xaml[ColumnDefinitionClassXAML](../windows.ui.xaml.controls/code/ColumnDefinitionClassXAMLSample/csharp/Page.xaml#SnippetColumnDefinitionClassXAML)]
 <!-- <auto_snippet sample_id="ColumnDefinitionClassCodeSample" snippet_id="ColumnDefinitionClassCode"/> -->
 
 ## -see-also

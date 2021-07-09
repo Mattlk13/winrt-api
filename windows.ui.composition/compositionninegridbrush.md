@@ -12,6 +12,8 @@ public class CompositionNineGridBrush : Windows.UI.Composition.CompositionBrush,
 ## -description
 Paints a [SpriteVisual](spritevisual.md) with a CompositionBrush after applying Nine-Grid Stretching to the contents of the Source brush. The source of the nine-grid stretch can by any CompositionBrush of type CompositionColorBrush, CompositionSurfaceBrush or a CompositionEffectBrush.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionNineGridBrush](/windows/winui/api/microsoft.ui.composition.compositionninegridbrush).
+
 ## -remarks
 Nine-Grid stretching refers to the partitioning of visual content (the content of the source brush to be painted onto a [SpriteVisual](spritevisual.md)) into a grid of nine rectangles such that the sizes of the corner rectangles are preserved upon resizing, as shown in the diagram below:
 
@@ -69,7 +71,7 @@ In conjunction with the [IsCenterHollow](compositionninegridbrush_iscenterhollow
 
 The inset thickness of a CompositionNineGridBrush does not change if the [Size](visual_size.md) property of the associated [SpriteVisual](spritevisual.md) is changed.
 
-The inset scale properties provide a mechanism to scale Nine-Grid Insets from the brush’s coordinate space (such as pixel space for an image) to that of the [SpriteVisual](spritevisual.md). For instance, the inset scale properties may be used to control inset thickness in response to scale transformation inherited from the [SpriteVisual](spritevisual.md) that the NineGridBrush is painted onto or an arbitrary ancestor in its Visual tree (such as in cases of DPI scale, etc.). In this case, [ExpressionAnimation](expressionanimation.md) s provide a means to dynamically update values of inset scale.
+The inset scale properties provide a mechanism to scale Nine-Grid Insets from the brush’s coordinate space (such as pixel space for an image) to that of the [SpriteVisual](spritevisual.md). For instance, the inset scale properties may be used to control inset thickness in response to scale transformation inherited from the [SpriteVisual](spritevisual.md) that the NineGridBrush is painted onto or an arbitrary ancestor in its Visual tree (such as in cases of DPI scale, etc.). In this case, [ExpressionAnimation](expressionanimation.md)s provide a means to dynamically update values of inset scale.
 
 ## -examples
 Apply Nine-Grid Stretching to a button asset ([CompositionSurfaceBrush](compositionsurfacebrush.md) **Source**)

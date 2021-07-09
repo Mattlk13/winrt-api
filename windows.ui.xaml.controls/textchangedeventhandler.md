@@ -5,18 +5,24 @@
 <!-- Delegate syntax.
 public delegate void TextChangedEventHandler(System.Object sender, Windows.UI.Xaml.Controls.TextChangedEventArgs e)
 -->
+
 # Windows.UI.Xaml.Controls.TextChangedEventHandler
 
 ## -description
-Represents the method that will handle the [TextChanged](textbox_textchanged.md)  event.
+
+Represents the method that will handle the [TextChanged](textbox_textchanged.md) event.
+
+Equivalent WinUI delegate: [Microsoft.UI.Xaml.Controls.TextChangedEventHandler](/windows/winui/api/microsoft.ui.xaml.controls.textchangedeventhandler).
 
 ## -parameters
+
 ### -param sender
+
 The object where the event handler is attached.
 
 ### -param e
-The event data.
 
+The event data.
 
 ## -remarks
 

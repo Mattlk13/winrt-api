@@ -12,6 +12,8 @@ public bool IsTodayHighlighted { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the current date is highlighted in the picker's [CalendarView](calendarview.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.IsTodayHighlighted](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.istodayhighlighted).
+
 ## -xaml-syntax
 ```xaml
 <CalendarDatePicker IsTodayHighlighted="bool" .../>
@@ -22,7 +24,7 @@ Gets or sets a value that indicates whether the current date is highlighted in t
 **true** if the current date is highlighted; otherwise, **false**. The default is **true**.
 
 ## -remarks
-This property affects the [CalendarDatePicker](calendardatepicker.md) 's internal [CalendarView](calendarview.md). For more info, see [CalendarView.IsTodayHighlighted](calendarview_istodayhighlighted.md).
+This property affects the [CalendarDatePicker](calendardatepicker.md)'s internal [CalendarView](calendarview.md). For more info, see [CalendarView.IsTodayHighlighted](calendarview_istodayhighlighted.md).
 
 ## -examples
 

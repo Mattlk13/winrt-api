@@ -14,6 +14,8 @@ public event TypedEventHandler SelectionChanging<TextBox, TextBoxSelectionChangi
 
 Occurs when the text selection starts to change.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TextBox.SelectionChanging](/windows/winui/api/microsoft.ui.xaml.controls.textbox.selectionchanging).
+
 ## -xaml-syntax
 
 ```xaml
@@ -24,5 +26,6 @@ Occurs when the text selection starts to change.
 
 ## -see-also
 
-## -examples
+[TextBoxSelectionChangingEventArgs](textboxselectionchangingeventargs.md)
 
+## -examples

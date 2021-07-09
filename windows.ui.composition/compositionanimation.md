@@ -12,6 +12,8 @@ public class CompositionAnimation : Windows.UI.Composition.CompositionObject, Wi
 ## -description
 Represents the base animation class.
 
+Equivalent WinUI class: [Microsoft.UI.Composition.CompositionAnimation](/windows/winui/api/microsoft.ui.composition.compositionanimation).
+
 ## -remarks
 
 This is the base class for [ExpressionAnimation](expressionanimation.md) and [KeyFrameAnimation](keyframeanimation.md).
@@ -33,4 +35,4 @@ Value parameters (as opposed to reference parameters which are set using [SetRef
 
 ## -see-also
 
-[ExpressionAnimation](expressionanimation.md), [KeyFrameAnimation](keyframeanimation.md), [Composition Animations Overview](https://go.microsoft.com/fwlink/p/?LinkID=692060), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)
+[ExpressionAnimation](expressionanimation.md), [KeyFrameAnimation](keyframeanimation.md), [Composition Animations Overview](/en-us/windows/uwp/composition/composition-animation), [CompositionObject](compositionobject.md), [IClosable](../windows.foundation/iclosable.md)

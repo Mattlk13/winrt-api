@@ -12,6 +12,8 @@ public class Matrix3DProjection : Windows.UI.Xaml.Media.Projection, Windows.UI.X
 ## -description
 Applies a [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md) projection to an object.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Matrix3DProjection](/windows/winui/api/microsoft.ui.xaml.media.matrix3dprojection).
+
 ## -xaml-syntax
 ```xaml
 <Matrix3DProjection .../>
@@ -31,20 +33,20 @@ This example uses a simple [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.
 
 
 
-[!code-xml[Matrix3DProjectionSimple](../windows.ui.xaml.media/code/Matrix3DProjectionSimple/csharp/MainPage.xaml#SnippetMatrix3DProjectionSimple)]
+[!code-xaml[Matrix3DProjectionSimple](../windows.ui.xaml.media/code/Matrix3DProjectionSimple/csharp/MainPage.xaml#SnippetMatrix3DProjectionSimple)]
 
 [!code-csharp[Matrix3DProjectionSimple_code](../windows.ui.xaml.media/code/Matrix3DProjectionSimple/csharp/MainPage.xaml.cs#SnippetMatrix3DProjectionSimple_code)]
 
 
 
-[!code-xml[Matrix3DProjectionXAML](../windows.ui.xaml.media/code/Matrix3DProjectionXAML/csharp/MainPage.xaml#SnippetMatrix3DProjectionXAML)]
+[!code-xaml[Matrix3DProjectionXAML](../windows.ui.xaml.media/code/Matrix3DProjectionXAML/csharp/MainPage.xaml#SnippetMatrix3DProjectionXAML)]
 
 
 
-[!code-xml[Matrix3DProjectionSample](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml#SnippetMatrix3DProjectionSample)]
+[!code-xaml[Matrix3DProjectionSample](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml#SnippetMatrix3DProjectionSample)]
 
 [!code-csharp[Matrix3DProjectionSample_code](../windows.ui.xaml.media/code/Matrix3DProjectionSample/csharp/MainPage.xaml.cs#SnippetMatrix3DProjectionSample_code)]
 
 ## -see-also
-[Projection](projection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D perspective effects for XAML UI](https://docs.microsoft.com/windows/uwp/graphics/3-d-perspective-effects)
-jection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D perspective effects for XAML UI](https://docs.microsoft.com/windows/uwp/graphics/3-d-perspective-effects)
+[Projection](projection.md), [UIElement.Projection](../windows.ui.xaml/uielement_projection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D perspective effects for XAML UI](/windows/uwp/graphics/3-d-perspective-effects)
+jection.md), [Matrix3D](../windows.ui.xaml.media.media3d/matrix3d.md), [3-D perspective effects for XAML UI](/windows/uwp/graphics/3-d-perspective-effects)

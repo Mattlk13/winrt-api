@@ -14,6 +14,8 @@ public event TypedEventHandler EffectiveViewportChanged<FrameworkElement, Effect
 
 Occurs when the [FrameworkElement](frameworkelement.md)'s *effective viewport* changes.
 
+Equivalent WinUI event: [Microsoft.UI.Xaml.FrameworkElement.EffectiveViewportChanged](/windows/winui/api/microsoft.ui.xaml.frameworkelement.effectiveviewportchanged).
+
 ## -remarks
 
 A scrolling control allows the user to pan/scroll through content that takes up more space than is available in the UI. The portion of the content that the user sees is called the *viewport*.
@@ -26,7 +28,7 @@ The EffectiveViewportChanged event provides multiple pieces of information:
 
 ### EffectiveViewport
 
-The *EffectiveViewport* is the intersection of all known viewports that contain the [FrameworkElement](frameworkelement.md) in their sub-tree. If there are two or more viewports (e.g. a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) nested inside another [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md)) that do not overlap, then the EffectiveViewport is an empty [Rect](../windows.foundation/rect.md).
+The *EffectiveViewport* is the intersection of all known viewports that contain the [FrameworkElement](frameworkelement.md) in their sub-tree. If there are two or more viewports (for example, a [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md) nested inside another [ScrollViewer](../windows.ui.xaml.controls/scrollviewer.md)) that do not overlap, then the EffectiveViewport is an empty [Rect](../windows.foundation/rect.md).
 
 > [!NOTE]
 > For a scrolling control's viewport to be *known* to the framework, the control must have previously registered it using the [UIElement.RegisterAsScrollPort](uielement_registerasscrollport_591917999.md) method. The framework uses the [Clip](uielement_clip.md) of the registered element when determining the effective viewport.
@@ -124,8 +126,6 @@ private void Item_EffectiveViewportChanged(FrameworkElement sender, EffectiveVie
 
 ## -see-also
 
-- [UIElement.RegisterAsScrollPort](uielement_registerasscrollport_591917999.md)
-- FrameworkElement.EffectiveViewportChanged
-- [FrameworkElement.InvalidateViewport](frameworkelement_invalidateviewport_528063221.md)
+[UIElement.RegisterAsScrollPort](/uwp/api/windows.ui.xaml.uielement.registerasscrollport), [FrameworkElement.InvalidateViewport](/uwp/api/windows.ui.xaml.frameworkelement.invalidateviewport)
 
 ## -examples

@@ -12,6 +12,8 @@ public bool IsGroupLabelVisible { get;  set; }
 ## -description
 Gets or sets a value that indicates whether the month name is shown with the first day of the month in the picker's [CalendarView](calendarview.md).
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.CalendarDatePicker.IsGroupLabelVisible](/windows/winui/api/microsoft.ui.xaml.controls.calendardatepicker.isgrouplabelvisible).
+
 ## -xaml-syntax
 ```xaml
 <CalendarDatePicker IsGroupLabelVisible="bool" .../>
@@ -22,7 +24,7 @@ Gets or sets a value that indicates whether the month name is shown with the fir
 **true** if the month name is shown with the first day of the month; otherwise, **false**. The default is **true**.
 
 ## -remarks
-This property affects the [CalendarDatePicker](calendardatepicker.md) 's internal [CalendarView](calendarview.md). For more info, see [CalendarView.IsGroupLabelVisible](calendarview_isgrouplabelvisible.md).
+This property affects the [CalendarDatePicker](calendardatepicker.md)'s internal [CalendarView](calendarview.md). For more info, see [CalendarView.IsGroupLabelVisible](calendarview_isgrouplabelvisible.md).
 
 ## -examples
 

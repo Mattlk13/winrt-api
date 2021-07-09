@@ -12,13 +12,12 @@ public object Header { get;  set; }
 ## -description
 Gets or sets the content for the list header.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.ListViewBase.Header](/windows/winui/api/microsoft.ui.xaml.controls.listviewbase.header).
+
 ## -xaml-syntax
 ```xaml
 <listViewBase Header="headerString"/>
-
-```
-
-```xaml
+- or -
 <listViewBase>
   <listViewBase.Header>
     headerObject
@@ -45,7 +44,7 @@ Here's a [GridView](gridview.md) header that contains a [StackPanel](stackpanel.
 
 
 
-[!code-xml[GridViewHeader](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/SplitPage.xaml#SnippetGridViewHeader)]
+[!code-xaml[GridViewHeader](../windows.ui.xaml.controls/code/ListAndGridViewSnippets/csharp/SplitPage.xaml#SnippetGridViewHeader)]
 
 ## -see-also
 [HeaderTemplate](listviewbase_headertemplate.md), [HeaderTransitions](listviewbase_headertransitions.md), [FlowDirection](../windows.ui.xaml/frameworkelement_flowdirection.md)

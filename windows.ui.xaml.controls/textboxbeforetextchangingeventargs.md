@@ -13,13 +13,12 @@ public class TextBoxBeforeTextChangingEventArgs
 
 Provides event data for the [TextBox.BeforeTextChanging](textbox_beforetextchanging.md) event.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.TextBoxBeforeTextChangingEventArgs](/windows/winui/api/microsoft.ui.xaml.controls.textboxbeforetextchangingeventargs).
+
 ## -remarks
 
 An instance of this class is passed as a parameter to the [BeforeTextChanging](textbox_beforetextchanging.md) event handler.
 
-## -remarks
-
 ## -see-also
 
 ## -examples
-

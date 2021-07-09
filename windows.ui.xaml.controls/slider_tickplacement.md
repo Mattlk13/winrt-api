@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.Primitives.TickPlacement TickPlacement { get;  s
 ## -description
 Gets or sets a value that indicates where to draw tick marks in relation to the track.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Slider.TickPlacement](/windows/winui/api/microsoft.ui.xaml.controls.slider.tickplacement).
+
 ## -xaml-syntax
 ```xaml
 <Slider TickPlacement="tickPlacementMemberName" />
@@ -29,7 +31,7 @@ Here's a slider with its [TickFrequency](slider_tickfrequency.md) set to 2 and i
 
 
 
-[!code-xml[3](../windows.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/csharp/Page.xaml#Snippet3)]
+[!code-xaml[3](../windows.ui.xaml.data/code/System.Windows.Controls.Extended.SliderSL/csharp/Page.xaml#Snippet3)]
 
 ## -see-also
 [TickFrequency](slider_tickfrequency.md)

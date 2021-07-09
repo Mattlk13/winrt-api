@@ -12,6 +12,8 @@ public Windows.UI.Color FromArgb(System.Byte a, System.Byte r, System.Byte g, Sy
 ## -description
 Generates a [Color](color.md) structure, based on discrete **Byte** values for **ARGB** components. C# and Microsoft Visual Basic code should use **Color.FromArgb** instead.
 
+Equivalent WinUI method: [Microsoft.UI.ColorHelper.FromArgb](/windows/winui/api/microsoft.ui.colorhelper.fromargb).
+
 ## -parameters
 ### -param a
 The **A** (transparency) component of the desired color. Range is 0-255.
@@ -42,7 +44,7 @@ This example shows how to create a Color.
 Windows::UI::Color orangeColor{ Windows::UI::ColorHelper::FromArgb(255, 255, 128, 0) };
 ```
 
-```cpp
+```cppcx
 auto orangeColor = Windows::UI::ColorHelper::FromArgb(255, 255, 128, 0);
 ```
 
@@ -53,7 +55,7 @@ Windows::UI::Xaml::Media::SolidColorBrush greenBrush{
     Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90) };
 ```
 
-```cpp
+```cppcx
 auto greenBrush = ref new SolidColorBrush(Windows::UI::ColorHelper::FromArgb(255, 90, 200, 90));
 ```
 

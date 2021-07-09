@@ -12,6 +12,8 @@ public Windows.UI.Xaml.Controls.ClickMode ClickMode { get;  set; }
 ## -description
 Gets or sets a value that indicates when the [Click](buttonbase_click.md) event occurs, in terms of device behavior.
 
+Equivalent WinUI property: [Microsoft.UI.Xaml.Controls.Primitives.ButtonBase.ClickMode](/windows/winui/api/microsoft.ui.xaml.controls.primitives.buttonbase.clickmode).
+
 ## -xaml-syntax
 ```xaml
 <button ClickMode="clickModeMemberName"/>
@@ -39,7 +41,7 @@ The following example shows three buttons that respond to clicks in three differ
 
 
 
-[!code-xml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml#Snippet1)]
 
 
 [!code-csharp[11](../windows.ui.xaml.data/code/System.Windows.Controls.ButtonClickModeSL/csharp/Page.xaml.cs#Snippet11)]

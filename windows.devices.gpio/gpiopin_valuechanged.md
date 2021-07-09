@@ -10,7 +10,7 @@ public event Windows.Foundation.TypedEventHandler ValueChanged<Windows.Devices.G
 # Windows.Devices.Gpio.GpioPin.ValueChanged
 
 ## -description
-Occurs when the value of the general-purpose I/O (GPIO) pin changes, either because of an external stimulus when the pin is configured as an input, or when a value is written to the pin when the pin in configured as an output.
+Occurs when the value of the general-purpose I/O (GPIO) pin changes, either because of an external stimulus when the pin is configured as an input, or when a value is written to the pin when the pin is configured as an output.
 
 ## -remarks
 
@@ -20,4 +20,4 @@ Occurs when the value of the general-purpose I/O (GPIO) pin changes, either beca
 [GpioPinValueChangedEventArgs](gpiopinvaluechangedeventargs.md)
 
 ## -capabilities
-&lt;DeviceCapability name="lowLevel" /&gt;
+lowLevel

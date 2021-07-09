@@ -12,6 +12,8 @@ public class RepositionThemeTransition : Windows.UI.Xaml.Media.Animation.Transit
 ## -description
 Reacts to layout moves when no context is set and a trigger of *move* is passed.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Media.Animation.RepositionThemeTransition](/windows/winui/api/microsoft.ui.xaml.media.animation.repositionthemetransition).
+
 ## -xaml-syntax
 ```xaml
 <RepositionThemeTransition ../>
@@ -43,7 +45,7 @@ The following example applies a RepositionThemeTransition to a button. When you 
 
 
 
-[!code-xml[RepositionThemeTransitionSimple](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransitionSimple)]
+[!code-xaml[RepositionThemeTransitionSimple](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransitionSimple)]
 
 [!code-csharp[RepositionThemeTransitionSimple_code](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml.cs#SnippetRepositionThemeTransitionSimple_code)]
 
@@ -60,10 +62,9 @@ The following example applies a RepositionThemeTransition to a button. When you 
 
 
 
-[!code-xml[RepositionThemeTransition](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransition)]
+[!code-xaml[RepositionThemeTransition](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml#SnippetRepositionThemeTransition)]
 
 [!code-csharp[RepositionThemeTransition_code](../windows.ui.xaml.media.animation/code/RepositionThemeTransition/csharp/BlankPage.xaml.cs#SnippetRepositionThemeTransition_code)]
 
 ## -see-also
-[Transition](transition.md), [Animating repositions](https://docs.microsoft.com/previous-versions/windows/apps/jj649434(v=win.10)), [Guidelines and checklist for reposition animations](https://docs.microsoft.com/windows/uwp/style/motion-reposition)
- reposition animations](https://msdn.microsoft.com/library/25d1ee31-5c25-4f21-b34c-fbd8fb1c8fff)
+[Transition](transition.md), [Animating repositions](/previous-versions/windows/apps/jj649434(v=win.10)), [Guidelines and checklist for reposition animations](/windows/uwp/style/motion-reposition), [reposition animations](/windows/uwp/design/motion/motion-reposition)

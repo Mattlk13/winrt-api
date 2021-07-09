@@ -12,6 +12,8 @@ public class LayoutInformation : Windows.UI.Xaml.Controls.Primitives.ILayoutInfo
 ## -description
 Defines methods that provide additional information about the layout of an element.
 
+Equivalent WinUI class: [Microsoft.UI.Xaml.Controls.Primitives.LayoutInformation](/windows/winui/api/microsoft.ui.xaml.controls.primitives.layoutinformation).
+
 ## -remarks
 
 ### Version history
@@ -25,7 +27,7 @@ The following example shows how to use [GetLayoutSlot](layoutinformation_getlayo
 
 
 
-[!code-xml[1](../windows.ui.xaml.controls.primitives/code/GetLayoutInfo/csharp/Page.xaml#Snippet1)]
+[!code-xaml[1](../windows.ui.xaml.controls.primitives/code/GetLayoutInfo/csharp/Page.xaml#Snippet1)]
 
 [!code-csharp[2](../windows.ui.xaml.controls.primitives/code/GetLayoutInfo/csharp/Page.xaml.cs#Snippet2)]
 

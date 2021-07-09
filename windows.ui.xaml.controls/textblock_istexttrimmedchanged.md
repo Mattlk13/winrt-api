@@ -11,7 +11,9 @@ public event TypedEventHandler IsTextTrimmedChanged<TextBlock, IsTextTrimmedChan
 
 ## -description
 
-Occurs when the **IsTextTrimmed** property value has changed.
+Occurs when the [IsTextTrimmed](textblock_istexttrimmed.md) property value has changed.
+
+Equivalent WinUI event: [Microsoft.UI.Xaml.Controls.TextBlock.IsTextTrimmedChanged](/windows/winui/api/microsoft.ui.xaml.controls.textblock.istexttrimmedchanged).
 
 ## -xaml-syntax
 
@@ -21,7 +23,8 @@ Occurs when the **IsTextTrimmed** property value has changed.
 
 ## -remarks
 
+If the [TextTrimming](textblock_texttrimming.md) property is set to None (default), no trim indicator is drawn and the [IsTextTrimmedChanged](textblock_istexttrimmedchanged.md) event does not fire.
+
 ## -see-also
 
 ## -examples
-
